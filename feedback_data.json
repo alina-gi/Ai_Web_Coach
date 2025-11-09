@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp": "2025-11-05T10:55:21.983366",
+    "user_message": "WHY ARE YOU ASKING QUESTIONS",
+    "ai_response": "I’m here to support you, Taiba! Asking questions helps me understand what you’re thinking or feeling so I can be more helpful. What’s on your mind?",
+    "feedback": "positive",
+    "detected_mood": "neutral"
+  },
+  {
+    "timestamp": "2025-11-06T11:23:50.019905",
+    "user_message": "DO YOU REMEMBER MY LAST TEXT",
+    "ai_response": "I don’t have memory of past chats, but I’m here now! What’s on your mind?",
+    "feedback": "positive",
+    "detected_mood": "neutral"
+  },
+  {
+    "timestamp": "2025-11-06T11:24:01.416277",
+    "user_message": "IM HAPPY",
+    "ai_response": "That’s awesome to hear! What’s got you feeling so good today?",
+    "feedback": "positive",
+    "detected_mood": "positive"
+  },
+  {
+    "timestamp": "2025-11-08T07:30:53.903875",
+    "user_message": "in my mind im bit disturbed abput my relationship with my husband",
+    "ai_response": "It sounds like you're carrying a lot right now. Relationships can be complex, and it’s normal to feel disturbed sometimes. What’s been on your mind about your relationship?",
+    "feedback": "positive",
+    "detected_mood": "negative"
+  },
+  {
+    "timestamp": "2025-11-08T07:56:02.972106",
+    "user_message": "ok what i told you to not forget?",
+    "ai_response": "You mentioned that you're having some problems these days, Taiba. I’m here for you, ready to talk about anything specific that’s been weighing on your mind. What’s been bothering you?",
+    "feedback": "positive",
+    "detected_mood": "positive"
+  }
+]

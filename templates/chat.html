@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Coach Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-app">
+        <header class="chat-header">
+            <div class="chat-title">AI Coach</div>
+        </header>
+        <section id="moodBar" class="mood-bar" aria-live="polite" aria-label="Detected mood"></section>
+
+        <main id="chatWindow" class="chat-window" aria-live="polite" aria-label="Chat messages">
+            <!-- Messages will be appended here dynamically -->
+        </main>
+
+        <form id="chatForm" class="chat-input" autocomplete="off">
+            <input id="messageInput" type="text" name="message" placeholder="Type your message..." aria-label="Type your message" required />
+            <button id="sendBtn" type="submit" aria-label="Send message">Send</button>
+        </form>
+    </div>
+
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+
